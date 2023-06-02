@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://estasingenia.com/client/",
+  "homepage": "https://estasingenia.com/client/dist",
   "private": true,
   "version": "0.0.0",
   "type": "module",
