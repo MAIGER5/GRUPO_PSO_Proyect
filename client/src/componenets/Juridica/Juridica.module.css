@@ -1,0 +1,27 @@
+
+
+.dhsPrincipal{
+    display: flexbox;
+    position: relative;
+    width: 100vw;
+    background-color: #ffff;
+    height: 170rem;
+    z-index: 1;
+    /* border: 1px solid red; */
+}
+
+.descubre{
+    background: #ff5722;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.descubre:hover{
+    background-color: #393e46;
+}
+
+.logo img{
+    width:15.875em;
+    height:7.625em;
+}
