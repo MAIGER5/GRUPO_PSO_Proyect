@@ -22,12 +22,12 @@ export const Objetivos = () => {
             height:'29rem',
 
         }}>
-            <Grid item xs={6} md={4}  
+            <Grid item xs={6} md={4}
                 sx={{
-                    border:'1px solid red', 
-                    width:'18.75rem', 
-                    height:'18.75rem', 
-                    border:'0.625rem solid white'}}>
+                    border:'1px solid red',
+                    width:'18.75rem',
+                    height:'18.75rem',
+                    border:'0.625rem'}}>
                 <Typography fontSize="2.5rem"
                     sx={{
                         display:'flex',
@@ -60,7 +60,7 @@ export const Objetivos = () => {
                         marginBottom:5,
                         marginLeft:4
                     }}
-                
+
                 >
                     <Avatar sx={{ bgcolor: '#ff5722',width:'6.25rem', height:'6.25rem' }} variant="square">
                     <Typography fontSize="3.75rem"
@@ -70,19 +70,19 @@ export const Objetivos = () => {
                                     justifyContent:"center"
 ,                                    width:'6.25rem',
                                     height:'6.25rem',
-                                }}  
-                                
-                            
+                                }}
+
+
                             >1</Typography>
                     </Avatar>
-                    <Typography 
+                    <Typography
                         sx={{
                             // border:'1px solid black',
                             width:'37.5rem',
-                            marginLeft:5      
+                            marginLeft:5
                         }}
                         color={'#113f67'}>Que las empresas clientes se dediquen en un 100% a su objeto social y dejen en nuestras manos las otras responsabilidades de tipo administrativo, OPTIMIZANDO tiempo, recursos humanos, técnicos y económicos.</Typography>
-                    
+
                 </Grid>
 
                 <Grid   container
@@ -95,7 +95,7 @@ export const Objetivos = () => {
                         marginBottom:5,
                         marginLeft:4
                     }}
-                
+
                 >
                     <Avatar sx={{ bgcolor: '#ff5722',width:'6.25rem', height:'6.25rem' }} variant="square">
                     <Typography fontSize="3.75rem"
@@ -105,21 +105,21 @@ export const Objetivos = () => {
                                     justifyContent:"center"
 ,                                    width:'6.25rem',
                                     height:'6.25rem',
-                                }}  
-                                
-                            
+                                }}
+
+
                             >2</Typography>
                     </Avatar>
-                    <Typography 
+                    <Typography
                         sx={{
                             // border:'1px solid black',
                             width:'37.5rem',
-                            marginLeft:5      
+                            marginLeft:5
                         }}
                         color={'#113f67'}>Que a traves de nuestro equipo de profesionales interdisciplinarios especializados en diferentes áreas de Sistemas de Gestión, Seguridad Industrial, Derecho Corporativo, especialmente en el área Laboral y Seguridad Social, Seguros Generales e Intermediación de ARL y  Reparaciones e Infraestructura, podamos contribuir a la gestion y organizacion de estos procesos y asi coadyudar al crecimiento de su empresa.</Typography>
-                    
+
                 </Grid>
-                
+
             </Grid>
         </Grid>
     </Grid>

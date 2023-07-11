@@ -1,14 +1,11 @@
-import {Box, Button, Grid, Typography, colors} from '@mui/material'
+import {Box, Button, Grid, Typography, colors, useTheme} from '@mui/material'
 import '@fontsource/noto-sans-hk';
 import styles from './Navbar.module.css'
 import Face4Icon from '@mui/icons-material/Face4';
 import pso from '../../utils/pso.png'
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import Brightness6Icon from '@mui/icons-material/Brightness6';
 import { Link, useLocation } from 'react-router-dom';
+
+import Preambulo from './Preambulo';
 
 
 
@@ -19,20 +16,12 @@ export const Navbar = () => {
   const rutaHome = '/home';
   const rutaPrincipal = '/';
 
+
+
   return (
     <div className={styles.navbar}>
-      <div className={styles.preambulo}>
-        <Typography className={styles.telefono}> <LocalPhoneIcon/> 604 4623978 </Typography>
-        <div className={styles.espacio}></div>
-        <div className={styles.iconPreambulo}>
-          <Button><TwitterIcon /></Button>
-          <Button><InstagramIcon sx={{marginLeft:'20px'}}/></Button>
-          <Button><FacebookIcon sx={{marginLeft:'20px'}}/></Button>
-        </div>
-        <div className={styles.dark}>
-          <Button><Brightness6Icon/></Button>
-        </div>
-      </div>
+      <Preambulo/>
+
       <div className={styles.navbar}>
         <Link to={'/'}>
           <img className={styles.logoPso} src={pso} alt='logo' />

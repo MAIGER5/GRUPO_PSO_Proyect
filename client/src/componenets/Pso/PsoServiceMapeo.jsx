@@ -45,7 +45,7 @@ export const PsoServiceMapeo = () => {
                 title={servicio.title}
                 imgCard={servicio.imageService}
                 description={servicio.description.map((ele)=> (
-                    <Typography>{ele}</Typography>
+                    <Typography key={`${servicio.id}-${ele}`}>{ele}</Typography>
                 ))}
             />
         ))}

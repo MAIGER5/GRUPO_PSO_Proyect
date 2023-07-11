@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 
 export const PsoServices = ({title, description, imgCard, id}) => {
     return (
-        <Card sx={{ width: '21.5625rem', height:'31rem', background:'white', borderRadius:'0.3125rem' }}>
+        <Card key={id} sx={{ width: '21.5625rem', height:'31rem', background:'white', borderRadius:'0.3125rem' }}>
             <CardMedia
               component="img"
               height="180.25rem"
@@ -19,14 +19,14 @@ export const PsoServices = ({title, description, imgCard, id}) => {
               }}
             />
             <CardContent>
-              <Typography gutterBottom variant="h6" component="div"
+              <Typography key={`${id}-title`} gutterBottom variant="h6" component="div"
                 sx={{
                     height:'5rem'
                 }}
               >
                 {title}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography key={`${id}-description`} variant="body2" color="text.secondary">
                 {description}
               </Typography>
             </CardContent>

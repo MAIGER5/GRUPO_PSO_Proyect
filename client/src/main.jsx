@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
 import './index.css'
+
+import ColorMode from './componenets/ColorMode/ColorMode.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <ColorMode/>
   </React.StrictMode>,
 )
