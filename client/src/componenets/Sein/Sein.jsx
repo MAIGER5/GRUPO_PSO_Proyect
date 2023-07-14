@@ -5,7 +5,7 @@ import logo from '../../utils/LogoDHS.png'
 import {useNavigate } from 'react-router-dom'
 import { SeinCard2 } from './SeinCard2'
 // import { DhsServices } from './SeinServices'
-import dhsLogo from '../../utils/LogoSEIN.png'
+import dhsLogo from '../../utils/LogoSEINv2.png'
 import { SeinServiceMapeo } from './SeinServiceMapeo'
 import { useEffect } from 'react'
 
@@ -19,29 +19,29 @@ export const Sein = () => {
     }
 
   return (
-    
+
     <div className={styles.dhsPrincipal} >
         <SeinCard/>
-        <Grid container 
+        <Grid container
           direction="column"
           justifyContent="center"
-          alignItems="center"  
+          alignItems="center"
           sx={{
-            position:'absolute', 
-            // border:'10px solid red', 
-            zIndex:1, 
-            width:'100vw', 
+            position:'absolute',
+            // border:'10px solid red',
+            zIndex:1,
+            width:'100vw',
             height:'62.5rem'
           }}>
           <img src={logo} alt='LogoDHS' width={'18.75rem'} />
-          <Typography color={'#393e46'} variant='h3' 
+          <Typography color={'#393e46'} variant='h3'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
               zIndex:1
             }}
           >SEIN</Typography>
-          <Typography color={'#393e46'} variant='h3' 
+          <Typography color={'#393e46'} variant='h3'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
@@ -57,13 +57,13 @@ export const Sein = () => {
               marginTop:'3rem'
             }}
           >Manténte seguro “Garantiza la seguridad de tu personal y la continuidad de tu negocio”.</Typography>
-          
-          <Typography className={styles.descubre} onClick={handleLinked} 
+
+          <Typography className={styles.descubre} onClick={handleLinked}
             display={'flex'}
             alignItems={'center'}
             justifyContent={'center'}
-            // border={'2px solid red'} 
-            color={'#ffff'} 
+            // border={'2px solid red'}
+            color={'#ffff'}
             marginTop={'3.4375rem'}
             borderRadius={'0.5625rem'}
             width={'18.75rem'}
@@ -74,7 +74,7 @@ export const Sein = () => {
           >Descubre Nuestras Soluciones</Typography>
         </Grid>
         <SeinCard2/>
-        <Grid 
+        <Grid
           container
           direction="row"
           justifyContent="flex-start"
@@ -91,7 +91,7 @@ export const Sein = () => {
             <img src={dhsLogo} alt="dhsLogo" />
           </Grid>
           <Grid>
-            <Typography color={'#393e46'} variant='h6' 
+            <Typography color={'#393e46'} variant='h6'
               sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',

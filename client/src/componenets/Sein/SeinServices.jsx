@@ -7,7 +7,8 @@ import Typography from '@mui/material/Typography';
 
 export const SeinServices = ({title, description, imgCard, id}) => {
     return (
-        <Card sx={{ width: '21.5625rem', height:'28rem', background:'white', borderRadius:'0.3125rem' }}>
+        // <Card sx={{ width: '21.5625rem', height:'28rem', background:'white', borderRadius:'0.3125rem' }}>
+        <Card sx={{ width: '21.5625rem', height:'28rem', borderRadius:'0.3125rem' }}>
             <CardMedia
               component="img"
               height="180.25rem"

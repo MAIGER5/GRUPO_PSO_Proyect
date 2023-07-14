@@ -4,7 +4,7 @@
     display: flexbox;
     position: relative;
     width: 100vw;
-    background-color: #ffff;
+    /* background-color: #ffff; */
     height: 130rem;
     z-index: 1;
     /* border: 1px solid red; */

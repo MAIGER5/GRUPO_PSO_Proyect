@@ -3,7 +3,7 @@ import { Grid, Typography } from '@mui/material'
 import logo from '../../utils/LogoDHS.png'
 import {useNavigate } from 'react-router-dom'
 import {PsoCard2 } from './PsoCard2'
-import dhsLogo from '../../utils/LogoPSO.png'
+import dhsLogo from '../../utils/LogoPSOv2.png'
 import {PsoServiceMapeo } from './PsoServiceMapeo'
 import { PsoCard } from './PsoCard'
 
@@ -17,29 +17,29 @@ export const Pso = () => {
     }
 
   return (
-    
+
     <div className={styles.dhsPrincipal} >
         <PsoCard/>
-        <Grid container 
+        <Grid container
           direction="column"
           justifyContent="center"
-          alignItems="center"  
+          alignItems="center"
           sx={{
-            position:'absolute', 
-            // border:'10px solid red', 
-            zIndex:1, 
-            width:'100vw', 
+            position:'absolute',
+            // border:'10px solid red',
+            zIndex:1,
+            width:'100vw',
             height:'62.5rem'
           }}>
           <img src={logo} alt='LogoDHS' width={'18.75rem'} />
-          <Typography color={'#393e46'} variant='h3' 
+          <Typography color={'#393e46'} variant='h3'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
               zIndex:1
             }}
           >PSO</Typography>
-          <Typography color={'#393e46'} variant='h3' 
+          <Typography color={'#393e46'} variant='h3'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
@@ -55,13 +55,13 @@ export const Pso = () => {
               marginTop:'3rem'
             }}
           >Nuestro equipo técnico está comprometido con la seguridad industrial y la salud de sus trabajadores. La prevención de accidentes laborales es fundamental para garantizar un entorno de trabajo seguro y saludable..</Typography>
-          
-          <Typography className={styles.descubre} onClick={handleLinked} 
+
+          <Typography className={styles.descubre} onClick={handleLinked}
             display={'flex'}
             alignItems={'center'}
             justifyContent={'center'}
-            // border={'2px solid red'} 
-            color={'#ffff'} 
+            // border={'2px solid red'}
+            color={'#ffff'}
             marginTop={'3.4375rem'}
             borderRadius={'0.5625rem'}
             width={'18.75rem'}
@@ -72,7 +72,7 @@ export const Pso = () => {
           >Descubre Nuestras Soluciones</Typography>
         </Grid>
         <PsoCard2/>
-        <Grid 
+        <Grid
           container
           direction="row"
           justifyContent="flex-start"
@@ -89,7 +89,7 @@ export const Pso = () => {
             <img src={dhsLogo} alt="dhsLogo" />
           </Grid>
           <Grid>
-            <Typography color={'#393e46'} variant='h6' 
+            <Typography color={'#393e46'} variant='h6'
               sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',

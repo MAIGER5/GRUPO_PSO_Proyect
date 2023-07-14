@@ -6,7 +6,6 @@ const ButtonContainer = () => {
   return (
     <Button
 
-      container
       sx={{
         position: 'absolute',
         background: '#ffc93c',
@@ -20,7 +19,7 @@ const ButtonContainer = () => {
     >
       <Typography
         fontSize='1.25em'
-        color={'#ffff'}
+        color={'#ffffff'}
         fontFamily={[
           'PFDinTextPro-Regular,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;',
         ]}

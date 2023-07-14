@@ -14,14 +14,14 @@ import { Objetivos } from "../Objetivos/Objetivos"
 
 export const Home = () => {
   const navigate = useNavigate();
-  
+
   return (
     <div className={styles.todoVista}>
         <div className={styles.centrado}>
           <HomeCard />
         </div>
 
-        <Grid   
+        <Grid
           container
           direction="row"
           justifyContent="center"
@@ -34,11 +34,11 @@ export const Home = () => {
           <Grid sx={{height:'10em', width:'15.625em', maxHeight:'93.75em'}}>
             <Typography align="center" sx={{verticalAlign: 'top', }} color={"#113f67"} fontWeight={'bold'} fontSize={23} >Bienvenidos!</Typography>
             <Box sx={{
-              fontWeight:'bold', 
-              display:'flex', 
-              width:'100%', 
-              justifyContent:'center', 
-              marginTop:2, 
+              fontWeight:'bold',
+              display:'flex',
+              width:'100%',
+              justifyContent:'center',
+              marginTop:2,
               }}
             >
               <Button sx={{border: '1px solid #247291', borderRadius:10, width:'8.75em'}} > <Typography color={'#247291'} fontSize={'0.8125em'}>VER MAS</Typography>  </Button>

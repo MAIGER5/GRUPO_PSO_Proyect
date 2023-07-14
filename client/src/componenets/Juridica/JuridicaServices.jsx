@@ -7,7 +7,8 @@ import Typography from '@mui/material/Typography';
 
 export const JuridicaServices = ({title, description, imgCard, id}) => {
     return (
-        <Card sx={{ width: '21.1rem', height:'30rem', background:'white', borderRadius:'0.3125rem', marginBottom:'45px' }}>
+        // <Card sx={{ width: '21.1rem', height:'30rem', background:'white', borderRadius:'0.3125rem', marginBottom:'45px' }}>
+        <Card sx={{ width: '21.1rem', height:'30rem', borderRadius:'0.3125rem', marginBottom:'45px' }}>
             <CardMedia
               component="img"
               height="180.25rem"

@@ -4,7 +4,7 @@ import { JuridicaCard } from './JuridicaCard'
 import logo from '../../utils/LogoDHS.png'
 import {useNavigate } from 'react-router-dom'
 import { JuridicaCard2 } from './JuridicaCard2'
-import dhsLogo from '../../utils/LogoJuridica.png'
+import dhsLogo from '../../utils/LogoJuridicav2.png'
 import { JuridicaServiceMapeo } from './JuridicaServiceMapeo'
 
 
@@ -17,29 +17,29 @@ export const Juridica = () => {
     }
 
   return (
-    
+
     <div className={styles.dhsPrincipal} >
         <JuridicaCard/>
-        <Grid container 
+        <Grid container
           direction="column"
           justifyContent="center"
-          alignItems="center"  
+          alignItems="center"
           sx={{
-            position:'absolute', 
-            // border:'10px solid red', 
-            zIndex:1, 
-            width:'100vw', 
+            position:'absolute',
+            // border:'10px solid red',
+            zIndex:1,
+            width:'100vw',
             height:'62.5rem'
           }}>
           <img src={logo} alt='LogoDHS' width={'18.75rem'} />
-          <Typography color={'#393e46'} variant='h3' 
+          <Typography color={'#393e46'} variant='h3'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
               zIndex:1
             }}
           >JURIDICA & CONSULTORIA</Typography>
-          <Typography color={'#ffff'} variant='h4' 
+          <Typography color={'#ffff'} variant='h4'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
@@ -55,13 +55,13 @@ export const Juridica = () => {
               marginTop:'3rem'
             }}
           >Nuestro compromiso es brindar asesoramiento y representación legal a empleados y sindicatos, asegurándonos de que se cumplan las leyes laborales y se respeten los derechos laborales.</Typography>
-          
-          <Typography className={styles.descubre} onClick={handleLinked} 
+
+          <Typography className={styles.descubre} onClick={handleLinked}
             display={'flex'}
             alignItems={'center'}
             justifyContent={'center'}
-            // border={'2px solid red'} 
-            color={'#ffff'} 
+            // border={'2px solid red'}
+            color={'#ffff'}
             marginTop={'3.4375rem'}
             borderRadius={'0.5625rem'}
             width={'18.75rem'}
@@ -72,7 +72,7 @@ export const Juridica = () => {
           >Descubre Nuestras Soluciones</Typography>
         </Grid>
         <JuridicaCard2/>
-        <Grid 
+        <Grid
           container
           direction="row"
           justifyContent="flex-start"
@@ -89,7 +89,7 @@ export const Juridica = () => {
             <img src={dhsLogo} alt="dhsLogo" />
           </Grid>
           <Grid>
-            <Typography color={'#393e46'} variant='h6' 
+            <Typography color={'#393e46'} variant='h6'
               sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',

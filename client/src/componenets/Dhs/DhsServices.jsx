@@ -7,7 +7,8 @@ import Typography from '@mui/material/Typography';
 
 export const DhsServices = ({title, description, imgCard, id}) => {
     return (
-        <Card sx={{ width: '21.1rem', height:'28rem', background:'white', borderRadius:'0.3125rem' }}>
+        // <Card sx={{ width: '21.1rem', height:'28rem', background:'white', borderRadius:'0.3125rem' }}>
+        <Card sx={{ width: '21.1rem', height:'28rem', borderRadius:'0.3125rem' }}>
             <CardMedia
               component="img"
               height="180.25rem"
@@ -26,9 +27,9 @@ export const DhsServices = ({title, description, imgCard, id}) => {
               >
                 {title}
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {description}
-              </Typography>
+              {/* <Typography variant="body2" color="text.secondary"> */}
+                {description.map((item, index) => ( <Typography key={index} component="span" variant="body2" color="text.secondary">{item}</Typography> ))}
+              {/* </Typography> */}
             </CardContent>
         </Card>
     );

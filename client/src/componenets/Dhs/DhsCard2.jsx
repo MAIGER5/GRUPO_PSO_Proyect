@@ -12,20 +12,21 @@ export const DhsCard2 = () => {
             width:'100%',
             // border:'1px solid blue',
             marginTop:'56.25em'
-            
+
         }}
     >
-        <Card 
+        <Card
             sx={{
                 display:'flex',
                 alignItems:'center',
                 width:'50%',
                 borderRadius:3,
-                border: '0.3125em solid white',
-                background:'#ffff',
+                // border: '0.3125em solid white',
+                padding: 1,
+                // background:'#ffff',
                 boxShadow:'none'
-                
-                
+
+
             }}
         >
             <CardMedia
@@ -34,9 +35,9 @@ export const DhsCard2 = () => {
                 sx={{width:'21.875em',
                     height:'15.625em',
                 }}
-                
+
             />
-            <Box 
+            <Box
                 sx={{
                     // border: '2px solid green',
                     width:550,

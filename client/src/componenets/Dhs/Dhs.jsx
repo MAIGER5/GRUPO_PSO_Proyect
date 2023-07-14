@@ -17,29 +17,30 @@ export const Dhs = () => {
     }
 
   return (
-    
+
     <div className={styles.dhsPrincipal} >
         <DhsCard/>
-        <Grid container 
+        <Grid container
           direction="column"
           justifyContent="center"
-          alignItems="center"  
+          alignItems="center"
           sx={{
-            position:'absolute', 
-            // border:'10px solid red', 
-            zIndex:1, 
-            width:'100vw', 
-            height:'62.5rem'
+            position:'absolute',
+            // border:'10px solid red',
+            zIndex:1,
+            width:'100vw',
+            height:'62.5rem',
+            // backgroundColor: 'red'
           }}>
           <img src={logo} alt='LogoDHS' width={'18.75rem'} />
-          <Typography color={'#393e46'} variant='h3' 
+          <Typography color={'#393e46'} variant='h3'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
               zIndex:1
             }}
           >DHS</Typography>
-          <Typography color={'#393e46'} variant='h3' 
+          <Typography color={'#393e46'} variant='h3'
             sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',
@@ -55,13 +56,13 @@ export const Dhs = () => {
               marginTop:'3rem'
             }}
           >Generamos la mejor asesoría y respaldo a nuestros clientes, es así que por esta razón representamos a las mejores aseguradoras del país.</Typography>
-          
-          <Typography className={styles.descubre} onClick={handleLinked} 
+
+          <Typography className={styles.descubre} onClick={handleLinked}
             display={'flex'}
             alignItems={'center'}
             justifyContent={'center'}
-            // border={'2px solid red'} 
-            color={'#ffff'} 
+            // border={'2px solid red'}
+            color={'#ffff'}
             marginTop={'3.4375rem'}
             borderRadius={'0.5625rem'}
             width={'18.75rem'}
@@ -72,7 +73,7 @@ export const Dhs = () => {
           >Descubre Nuestras Soluciones</Typography>
         </Grid>
         <DhsCard2/>
-        <Grid 
+        <Grid
           container
           direction="row"
           justifyContent="flex-start"
@@ -89,7 +90,7 @@ export const Dhs = () => {
             <img src={dhsLogo} alt="dhsLogo" />
           </Grid>
           <Grid>
-            <Typography color={'#393e46'} variant='h6' 
+            <Typography color={'#393e46'} variant='h6'
               sx={{
               fontFamily:'sans-serif',
               fontWeight:'bold',

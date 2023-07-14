@@ -11,20 +11,21 @@ export const JuridicaCard2 = () => {
             width:'100%',
             // border:'1px solid blue',
             marginTop:'56.25em'
-            
+
         }}
     >
-        <Card 
+        <Card
             sx={{
                 display:'flex',
                 alignItems:'center',
                 width:'75%',
                 borderRadius:3,
-                border: '0.3125em solid white',
-                background:'#ffff',
+                // border: '0.3125em solid white',
+                padding: 1,
+                // background:'#ffff',
                 boxShadow:'none'
-                
-                
+
+
             }}
         >
             <CardMedia
@@ -35,9 +36,9 @@ export const JuridicaCard2 = () => {
                     marginLeft:'9px',
                     borderRadius:'0.625rem 0rem'
                 }}
-                
+
             />
-            <Box 
+            <Box
                 sx={{
                     // border: '2px solid green',
                     width:750,

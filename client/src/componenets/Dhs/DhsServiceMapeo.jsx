@@ -32,8 +32,8 @@ const ServiceDHS = [
 
 export const DhsServiceMapeo = () => {
   return (
-    <Stack spacing={6} container direction={'row'} justifyContent={'center'} alignItems={'center'}
-    sx={{ 
+    <Stack spacing={6} direction={'row'} justifyContent={'center'} alignItems={'center'}
+    sx={{
         width:'90%',
         // padding:'0rem',
         // display:'flex',
